@@ -56,7 +56,10 @@
             "size": "free"
         }
     },
-    "buildpacks": [        
+    "buildpacks": [    
+        {
+            "url": "heroku/python"
+        },
         {
             "url": "heroku-community/apt"
         }
